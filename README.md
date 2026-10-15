@@ -1,0 +1,1 @@
+RODE -> cd auditor-clientes -> npm install -> npm run dev -> selecione o ID DO MONITOR que deseja consultar (no navegador utilizando localhost:3000 na url) informe a chave definida no env -> compare os clientes
