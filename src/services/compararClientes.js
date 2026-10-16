@@ -429,7 +429,7 @@ async function buscarCampanha(id, monitor, log) {
 
   if (campanha.origem !== 'base') {
     throw new Error(
-      `Campanha de origem ${campanha.origem}: esta auditoria atende origem base`
+      `Auditoria não suporte campanhas RETRABALHO, coloque o ID de uma campanha base`
     );
   }
 
